@@ -1,0 +1,19 @@
+test_end_to_end_scan_approve_plan_audit (test_cli_integration.CLITests.test_end_to_end_scan_approve_plan_audit) ... ok
+test_approval_binding (test_core.CoreTests.test_approval_binding) ... ok
+test_approval_expiry (test_core.CoreTests.test_approval_expiry) ... ok
+test_approval_wrong_secret (test_core.CoreTests.test_approval_wrong_secret) ... ok
+test_audit_integrity (test_core.CoreTests.test_audit_integrity) ... ok
+test_latest_wins (test_core.CoreTests.test_latest_wins) ... ok
+test_non_stopped_cannot_approve (test_core.CoreTests.test_non_stopped_cannot_approve) ... ok
+test_plan_is_not_execution (test_core.CoreTests.test_plan_is_not_execution) ... ok
+test_policy_rejects_duplicates (test_core.CoreTests.test_policy_rejects_duplicates) ... ok
+test_policy_rejects_unauthorized_host (test_core.CoreTests.test_policy_rejects_unauthorized_host) ... ok
+test_policy_rejects_unauthorized_service (test_core.CoreTests.test_policy_rejects_unauthorized_service) ... ok
+test_running_no_incident (test_core.CoreTests.test_running_no_incident) ... ok
+test_stopped_generates_incident (test_core.CoreTests.test_stopped_generates_incident) ... ok
+test_unknown_generates_nonrecoverable_incident (test_core.CoreTests.test_unknown_generates_nonrecoverable_incident) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 3.174s
+
+OK

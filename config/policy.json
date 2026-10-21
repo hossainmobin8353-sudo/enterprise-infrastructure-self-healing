@@ -1,0 +1,20 @@
+{
+  "environment": "ISOLATED-LAB",
+  "targets": [
+    {
+      "host": "LAB-DC1",
+      "service": "W32Time",
+      "expected": "Running"
+    },
+    {
+      "host": "LAB-FS1",
+      "service": "Spooler",
+      "expected": "Running"
+    },
+    {
+      "host": "LAB-APP1",
+      "service": "Dnscache",
+      "expected": "Running"
+    }
+  ]
+}

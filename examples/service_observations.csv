@@ -1,0 +1,4 @@
+host,service,status,timestamp
+LAB-DC1,W32Time,Running,2026-10-20T10:00:00Z
+LAB-FS1,Spooler,Stopped,2026-10-20T10:00:00Z
+LAB-APP1,Dnscache,Running,2026-10-20T10:00:00Z

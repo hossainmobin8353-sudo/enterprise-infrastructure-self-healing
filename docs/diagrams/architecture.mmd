@@ -1,0 +1,14 @@
+flowchart TD
+  A[Isolated Windows lab VMs] --> B[Read-only PowerShell inventory]
+  B --> C[CSV service observations]
+  C --> D[Python policy evaluator]
+  D --> E[Incident report]
+  D --> F[Hash-linked audit evidence]
+  E --> G{Human approval?}
+  G -->|No| H[No action]
+  G -->|Yes| I[Expiring signed approval]
+  I --> J[Structured action plan only]
+  J --> K{Local operator executes?}
+  K -->|No| H
+  K -->|Yes| L[Allowlisted PowerShell service start]
+  L --> M[Verify Running or report failure]

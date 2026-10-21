@@ -1,0 +1,3 @@
+Created 1 incidents -> output/incidents.json
+
+This is SYNTHETIC/offline evidence, not a VM integration test.

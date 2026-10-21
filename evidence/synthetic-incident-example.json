@@ -1,0 +1,13 @@
+[
+  {
+    "id": "28ebbe5527600bf3",
+    "host": "LAB-FS1",
+    "service": "Spooler",
+    "expected": "Running",
+    "observed": "Stopped",
+    "severity": "high",
+    "state": "OPEN",
+    "automated_action": "NONE",
+    "reason": "Manual approval required"
+  }
+]
